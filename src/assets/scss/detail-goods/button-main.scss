@@ -1,0 +1,55 @@
+.button-main {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  user-select: none;
+  transition: 150ms;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  min-width: 155px;
+  height: 55px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0 20px;
+
+  @media (max-width: 767px) {
+    max-width: 420px;
+    width: 100%;
+    min-width: auto;
+  }
+
+  &:hover, &:focus, &:active {
+    outline: none;
+    text-decoration: none;
+  }
+
+  &_long {
+    min-width: 250px;
+
+    @media (max-width: 767px) {
+      max-width: 420px;
+      width: 100%;
+      min-width: auto;
+    }
+  }
+
+  &_dark {
+    background: #111111;
+    border-color: #111111;
+  }
+  
+  &_green {
+    background: #81C001;
+    border-color: #81C001;
+  }
+
+  &__ico {
+    margin: 0 12px 0 0;
+  }
+}

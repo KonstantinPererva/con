@@ -1,0 +1,37 @@
+.detail-goods-slide {
+  width: sizeIns(800, $valLeptop3);
+  height: sizeIns(439, $valLeptop3);
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  transition: 400ms;
+
+  @media (max-width: 767px) {
+    width: sizeIns(280, $valMobile4);
+    height: sizeIns(154, $valMobile4);
+  }
+
+  &.swiper-slide-prev {
+    opacity: .5;
+  }
+
+  &.swiper-slide-next {
+    opacity: .5;
+  }
+
+  &.move-left {
+    justify-content: flex-start;
+  }
+
+  &.move-right {
+    justify-content: flex-end;
+  }
+}
+
+.wr-detail-goods-slider {
+  padding: 60px 0;
+
+  @media (max-width: 767px) {
+    padding: 50px 0;
+  }
+}

@@ -1,0 +1,16 @@
+.detail-block {
+  display: flex;
+  justify-content: space-between;
+
+  &:first-child {
+    margin: 0 0 40px;
+
+    @media (max-width: 767px) {
+      margin: 0 0 23px;
+    }
+  }
+
+  &:nth-child(2) {
+    display: block;
+  }
+}

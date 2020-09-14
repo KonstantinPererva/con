@@ -1,0 +1,49 @@
+.characteristic-info {
+
+  &__row {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DBDBDB;
+
+    @media (max-width: 767px) {
+      display: block;
+      padding: 17px 0 10px;
+    }
+  }
+
+  &__property {
+    display: block;
+    max-width: 531px;
+    width: 100%;
+    margin: 0 60px 0 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+    @media (max-width: 767px) {
+      font-size: 14px;
+      line-height: 16px;
+      margin: 0 0 10px;
+    }
+  }
+
+  &__value {
+    display: block;
+    max-width: 531px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+    @media (max-width: 767px) {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+}

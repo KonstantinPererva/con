@@ -1,0 +1,12 @@
+.detail-descr {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+
+  @media (max-width: 767px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

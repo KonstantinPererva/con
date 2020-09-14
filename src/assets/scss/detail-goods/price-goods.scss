@@ -1,0 +1,21 @@
+.price-goods {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  display: flex;
+
+  @media (max-width: 767px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  &__num {
+    margin: 0 12px 0 0;
+  }
+
+  &__cur {
+
+  }
+}

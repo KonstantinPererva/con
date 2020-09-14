@@ -1,0 +1,14 @@
+.detail-goods-card {
+  width: 100%;
+  height: 100%;
+  transition: 400ms;
+
+  & img {
+    width: 100%;
+  }
+
+  .swiper-slide-prev &, .swiper-slide-next & {
+    width: sizeIns(500, $valLeptop3);
+    height: sizeIns(302, $valLeptop3);
+  }
+}

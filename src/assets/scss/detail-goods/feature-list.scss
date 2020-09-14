@@ -1,0 +1,11 @@
+.feature-list {
+  column-count: 2;
+  -moz-column-count: 2; /* Для Firefox */
+  -webkit-column-count: 2; /* Для Safari и Chrome */
+  column-gap: 100px;
+  margin-left: 17px;
+
+  @media (max-width: 1000px) {
+    column-count: 1;
+  }
+}

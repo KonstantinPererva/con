@@ -1,0 +1,14 @@
+.detail-feature-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0 0 27px;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 32px;
+  }
+}
