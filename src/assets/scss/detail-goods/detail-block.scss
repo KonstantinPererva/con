@@ -1,5 +1,6 @@
 .detail-block {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   &:first-child {
@@ -11,6 +12,8 @@
   }
 
   &:nth-child(2) {
-    display: block;
+    @media (max-width: 767px) {
+      display: block;
+    }
   }
 }

@@ -24,6 +24,7 @@
   }
 
   &__right {
+    flex-shrink: 0;
     width: 415px;
 
     @media (max-width: 767px) {
